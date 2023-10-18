@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Test;
 
 
 import java.io.ByteArrayInputStream;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +20,8 @@ class PersonerTest {
         pers.läsInKundFrånInput();
         String namnFörväntat = "Micke Speiner";
         String personnummerFörväntat = "9702174930";
-        String datumFörväntat = "2023-10-17";
+        LocalDate idag = LocalDate.now();
+        String datumFörväntat = idag.toString();
         String EjnamnFörväntat = "Martin Svensson";
         String EjpersonnummerFörväntat = "193020113030";
         String EjdatumFörväntat = "2013-11-20";
