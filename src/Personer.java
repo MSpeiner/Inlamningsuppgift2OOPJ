@@ -64,7 +64,6 @@ public class Personer {
                 datum = andraMening.trim();
 
                 Personer person = new Personer(persNr, namn, datum);
-
                 inlästaPersonerFil.add(person);
             }
 

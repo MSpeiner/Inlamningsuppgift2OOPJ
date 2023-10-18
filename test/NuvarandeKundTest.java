@@ -40,7 +40,5 @@ class NuvarandeKundTest {
         assertNotEquals(intePersNr, persCheck.getPersonnummer());
         assertNotEquals(inteNamn, persCheck.getFörEfternamn());
         assertNotEquals(inteDatum, persCheck.getDatum());
-
         }
-
     }

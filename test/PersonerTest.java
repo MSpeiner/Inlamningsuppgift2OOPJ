@@ -33,7 +33,6 @@ class PersonerTest {
         assertNotEquals(EjdatumFörväntat, pers.getDatumInput());
     }
 
-
     @Test
     void kontrolleraKund() {
         List<Personer> inlästaPersonerFil = new ArrayList<>();

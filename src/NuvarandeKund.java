@@ -42,6 +42,5 @@ public class NuvarandeKund extends Personer {
             System.out.println("Okänt fel! Försök igen!");
         }
     }
-
 }
 

@@ -12,4 +12,3 @@ public class Huvudkod {
         Huvudkod hk = new Huvudkod();
     }
 }
-
