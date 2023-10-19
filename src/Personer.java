@@ -99,7 +99,6 @@ public class Personer {
 
     public void kontrolleraKund(List<Personer> inlästaPersonerFil, List<int[]> datumIntArray) {
         try {
-            skapaMånadArray(inlästaPersonerFil);
             double persNrInskrivet = Double.parseDouble(this.personnummer);
 
             double persNrLista;

@@ -3,6 +3,7 @@ public class Huvudkod {
         Personer pers = new Personer();
         pers.läsInPersonerFrånFil(pers.persUppgifter);
         pers.läsInKundFrånInput();
+        pers.skapaMånadArray(pers.inlästaPersonerFil);
         pers.kontrolleraKund(pers.inlästaPersonerFil, pers.datumIntArray);
     }
 
