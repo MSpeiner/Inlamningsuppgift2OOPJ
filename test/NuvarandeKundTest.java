@@ -26,6 +26,7 @@ class NuvarandeKundTest {
         String inteNamn = "Nils Pettersson";
         String intePersNr = "3912243031";
         String inteDatum = "1921-01-01";
+
         String Namn = "Alhambra Aromes";
         String PersNr = "7703021234";
         LocalDate idag = LocalDate.now();
