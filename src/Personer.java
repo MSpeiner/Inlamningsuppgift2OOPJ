@@ -92,11 +92,9 @@ public class Personer {
         DateTimeFormatter formatterar = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String dateString = idag.format(formatterar);
 
-        String personInput[] = {persnummer, förOchEfternamn, dateString};
-
-        this.personnummer = personInput[0].trim();
-        this.förEfternamn = personInput[1].trim();
-        this.datumInput = personInput[2].trim();
+        this.personnummer = persnummer.trim();
+        this.förEfternamn = förOchEfternamn.trim();
+        this.datumInput = dateString.trim();
     }
 
     public void kontrolleraKund(List<Personer> inlästaPersonerFil, List<int[]> datumIntArray) {
