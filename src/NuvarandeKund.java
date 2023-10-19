@@ -12,9 +12,6 @@ public class NuvarandeKund extends Personer {
 
     List<NuvarandeKund> NuvarandeKundLista = new ArrayList<>();
 
-    public NuvarandeKund() {
-    }
-
     public NuvarandeKund(String personnummer, String förEfternamn, String datum) {
         super(personnummer, förEfternamn, datum);
     }
